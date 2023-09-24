@@ -1,3 +1,4 @@
+#!/bin/bash
 #Создаём директории MAI и bakery (МАИ и пекарня открываются)
 mkdir -p MAI/bakery; cd MAI
 
