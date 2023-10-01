@@ -1,0 +1,312 @@
+0, ,<,put
+
+put,0,!,0z
+0z,!,>,0z
+0z,0,>,0z
+0z,1,>,0z
+0z,2,>,0z
+0z,3,>,0z
+0z,4,>,0z
+0z,5,>,0z
+0z,6,>,0z
+0z,7,>,0z
+0z, ,>,zero
+
+put,1,!,1
+1,!,>,1
+1,0,>,1
+1,1,>,1
+1,2,>,1
+1,3,>,1
+1,4,>,1
+1,5,>,1
+1,6,>,1
+1,7,>,1
+1, ,>,one
+
+put,2,!,2
+2,!,>,2
+2,0,>,2
+2,1,>,2
+2,2,>,2
+2,3,>,2
+2,4,>,2
+2,5,>,2
+2,6,>,2
+2,7,>,2
+2, ,>,two
+
+put,3,!,3
+3,!,>,3
+3,0,>,3
+3,1,>,3
+3,2,>,3
+3,3,>,3
+3,4,>,3
+3,5,>,3
+3,6,>,3
+3,7,>,3
+3, ,>,three
+
+put,4,!,4
+4,!,>,4
+4,0,>,4
+4,1,>,4
+4,2,>,4
+4,3,>,4
+4,4,>,4
+4,5,>,4
+4,6,>,4
+4,7,>,4
+4, ,>,four
+
+put,5,!,5
+5,!,>,5
+5,0,>,5
+5,1,>,5
+5,2,>,5
+5,3,>,5
+5,4,>,5
+5,5,>,5
+5,6,>,5
+5,7,>,5
+5, ,>,five
+
+put,6,!,6
+6,!,>,6
+6,0,>,6
+6,1,>,6
+6,2,>,6
+6,3,>,6
+6,4,>,6
+6,5,>,6
+6,6,>,6
+6,7,>,6
+6, ,>,six
+
+put,7,!,7
+7,!,>,7
+7,0,>,7
+7,1,>,7
+7,2,>,7
+7,3,>,7
+7,4,>,7
+7,5,>,7
+7,6,>,7
+7,7,>,7
+7, ,>,seven
+
+zero,0,>,zero
+zero,1,>,zero
+zero, ,0,zero0
+zero0,0,>,zero0
+zero0, ,0,zero1
+zero1,0,>,zero1
+zero1, ,0,return0
+
+one,0,>,one
+one,1,>,one
+one, ,1,one0
+one0,1,>,one0
+one0, ,0,one1
+one1,0,>,one1
+one1, ,0,return1
+
+two,0,>,two
+two,1,>,two
+two, ,0,two0
+two0,0,>,two0
+two0, ,1,two1
+two1,1,>,two1
+two1, ,0,return2
+
+three,0,>,three
+three,1,>,three
+three, ,1,three0
+three0,1,>,three0
+three0, ,1,three1
+three1,1,>,three1
+three1, ,0,return3
+
+four,0,>,four
+four,1,>,four
+four, ,0,four0
+four0,0,>,four0
+four0, ,0,four1
+four1,0,>,four1
+four1, ,1,return4
+
+five,0,>,five
+five,1,>,five
+five, ,1,five0
+five0,1,>,five0
+five0, ,0,five1
+five1,0,>,five1
+five1, ,1,return5
+
+six,0,>,six
+six,1,>,six
+six, ,0,six0
+six0,0,>,six0
+six0, ,1,six1
+six1,1,>,six1
+six1, ,1,return6
+
+seven,0,>,seven
+seven,1,>,seven
+seven, ,1,seven0
+seven0,1,>,seven0
+seven0, ,1,seven1
+seven1,1,>,seven1
+seven1, ,1,return7
+
+return0, ,<,return0
+return0,0,<,return0
+return0,1,<,return0
+return0,2,<,return0
+return0,3,<,return0
+return0,4,<,return0
+return0,5,<,return0
+return0,6,<,return0
+return0,7,<,return0
+return0,!,0,left
+
+return1, ,<,return1
+return1,0,<,return1
+return1,1,<,return1
+return1,2,<,return1
+return1,3,<,return1
+return1,4,<,return1
+return1,5,<,return1
+return1,6,<,return1
+return1,7,<,return1
+return1,!,1,left
+
+return2, ,<,return2
+return2,0,<,return2
+return2,1,<,return2
+return2,2,<,return2
+return2,3,<,return2
+return2,4,<,return2
+return2,5,<,return2
+return2,6,<,return2
+return2,7,<,return2
+return2,!,2,left
+
+return3, ,<,return3
+return3,0,<,return3
+return3,1,<,return3
+return3,2,<,return3
+return3,3,<,return3
+return3,4,<,return3
+return3,5,<,return3
+return3,6,<,return3
+return3,7,<,return3
+return3,!,3,left
+
+return4, ,<,return4
+return4,0,<,return4
+return4,1,<,return4
+return4,2,<,return4
+return4,3,<,return4
+return4,4,<,return4
+return4,5,<,return4
+return4,6,<,return4
+return4,7,<,return4
+return4,!,4,left
+
+return5, ,<,return5
+return5,0,<,return5
+return5,1,<,return5
+return5,2,<,return5
+return5,3,<,return5
+return5,4,<,return5
+return5,5,<,return5
+return5,6,<,return5
+return5,7,<,return5
+return5,!,5,left
+
+return6, ,<,return6
+return6,0,<,return6
+return6,1,<,return6
+return6,2,<,return6
+return6,3,<,return6
+return6,4,<,return6
+return6,5,<,return6
+return6,6,<,return6
+return6,7,<,return6
+return6,!,6,left
+
+return7, ,<,return7
+return7,0,<,return7
+return7,1,<,return7
+return7,2,<,return7
+return7,3,<,return7
+return7,4,<,return7
+return7,5,<,return7
+return7,6,<,return7
+return7,7,<,return7
+return7,!,7,left
+
+left,0,<,put
+left,1,<,put
+left,2,<,put
+left,3,<,put
+left,4,<,put
+left,5,<,put
+left,6,<,put
+left,7,<,put
+
+put, ,>,gorev
+
+gorev,0,>,gorev
+gorev,1,>,gorev
+gorev,2,>,gorev
+gorev,3,>,gorev
+gorev,4,>,gorev
+gorev,5,>,gorev
+gorev,6,>,gorev
+gorev,7,>,gorev
+gorev, ,>,gorev1
+gorev1,0,>,gorev1
+gorev1,1,>,gorev1
+gorev1, ,<,rev
+
+rev,0,<,rev
+rev,1,!,ret1
+rev, ,>,retzer
+retzer,0,!,ret0
+
+ret0,!,>,ret0
+ret0,1,>,ret0
+ret0,0,>,ret0
+ret0, ,>,put0
+put0,1,>,put0
+put0,0,>,put0
+put0, ,0,ret
+
+ret1,!,>,ret1
+ret1,1,>,ret1
+ret1,0,>,ret1
+ret1, ,>,put1
+put1,1,>,put1
+put1,0,>,put1
+put1, ,1,ret
+
+ret,0,<,ret
+ret,1,<,ret
+ret, ,<,ret
+ret,!,<,putrev
+putrev,!,<,putrev
+putrev,1,!,ret1
+putrev,0,!,ret0
+putrev, ,>,gofinish
+
+gofinish,!,>,gofinish
+gofinish,1,>,gofinish
+gofinish,0,>,gofinish
+gofinish, ,>,gof
+gof,1,>,gof
+gof,0,>,gof
+gof, , ,finish
+finish, ,#,finish
