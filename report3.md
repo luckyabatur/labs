@@ -54,7 +54,7 @@
 1. Приложите скриншоты вашей ДТ (для всех функций)
 2. Напишите здесь промежуточные результаты работы вашей программы (много не надо 5-10 результатов хватит, пишите только основные действия)
 
-![alt text](https://github.com/luckyabatur/labs/blob/main/tenminus.png)
+![alt text](https://github.com/luckyabatur/labs/blob/main/tenminus.png?raw=true)
 ```
 15 7
 !5 7
