@@ -53,29 +53,57 @@
 1. tenminus
 ![alt text](https://github.com/luckyabatur/labs/blob/main/tenminus.png?raw=true)
 2. copy
-https://github.com/luckyabatur/labs/blob/main/copy.png
-3.
+![alt text](https://github.com/luckyabatur/labs/blob/main/copy.png?raw=true)
+3. minus
+![alt text](https://github.com/luckyabatur/labs/blob/main/minus.png?raw=true)
+4. mainsup
+![alt text](https://github.com/luckyabatur/labs/blob/main/mainsup.png?raw=true)
+5. count1
+![alt text](https://github.com/luckyabatur/labs/blob/main/count1.png?raw=true)
+6. count2
+![alt text](https://github.com/luckyabatur/labs/blob/main/count2.png?raw=true)
+7. count3
+![alt text](https://github.com/luckyabatur/labs/blob/main/count3.png?raw=true)
+8. count4
+![alt text](https://github.com/luckyabatur/labs/blob/main/count4.png?raw=true)
+9. count5
+![alt text](https://github.com/luckyabatur/labs/blob/main/count5.png?raw=true)
+10. count6
+![alt text](https://github.com/luckyabatur/labs/blob/main/count6.png?raw=true)
+11. count7
+![alt text](https://github.com/luckyabatur/labs/blob/main/count7.png?raw=true)
+12. count8
+![alt text](https://github.com/luckyabatur/labs/blob/main/count8.png?raw=true)
+13. count9
+![alt text](https://github.com/luckyabatur/labs/blob/main/count9.png?raw=true)
+14.
 ![alt text](?raw=true)
-4.
+15.
 ![alt text](?raw=true)
-5.
+16.
 ![alt text](?raw=true)
-6.
+17.
 ![alt text](?raw=true)
-7.
+18.
 ![alt text](?raw=true)
-8.
+19.
 ![alt text](?raw=true)
-9.
+20.
 ![alt text](?raw=true)
-10.
-
-
-
-
-
-
-
+21.
+ ![alt text](?raw=true)  
+22.
+![alt text](?raw=true)
+23.
+![alt text](?raw=true)
+24.
+![alt text](?raw=true)
+25.
+![alt text](?raw=true)
+26.
+![alt text](?raw=true)
+27.
+![alt text](?raw=true)
 ```
 15 7
 !5 7
