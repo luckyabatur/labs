@@ -50,8 +50,31 @@
 6. Если нужно, избавиться от ведущих нулей.
 
 ## 8. Распечатка протокола
-tenminus
+1. tenminus
 ![alt text](https://github.com/luckyabatur/labs/blob/main/tenminus.png?raw=true)
+2. copy
+https://github.com/luckyabatur/labs/blob/main/copy.png
+3.
+![alt text](?raw=true)
+4.
+![alt text](?raw=true)
+5.
+![alt text](?raw=true)
+6.
+![alt text](?raw=true)
+7.
+![alt text](?raw=true)
+8.
+![alt text](?raw=true)
+9.
+![alt text](?raw=true)
+10.
+
+
+
+
+
+
 
 ```
 15 7
