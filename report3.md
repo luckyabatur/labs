@@ -76,34 +76,36 @@
 ![alt text](https://github.com/luckyabatur/labs/blob/main/count8.png?raw=true)
 13. count9
 ![alt text](https://github.com/luckyabatur/labs/blob/main/count9.png?raw=true)
-14.
-![alt text](?raw=true)
-15.
-![alt text](?raw=true)
-16.
-![alt text](?raw=true)
-17.
-![alt text](?raw=true)
-18.
-![alt text](?raw=true)
-19.
-![alt text](?raw=true)
-20.
-![alt text](?raw=true)
-21.
- ![alt text](?raw=true)  
-22.
-![alt text](?raw=true)
-23.
-![alt text](?raw=true)
-24.
-![alt text](?raw=true)
-25.
-![alt text](?raw=true)
-26.
-![alt text](?raw=true)
-27.
-![alt text](?raw=true)
+14. imp
+![alt text](https://github.com/luckyabatur/labs/blob/main/imp.png?raw=true)
+15. main
+![alt text](https://github.com/luckyabatur/labs/blob/main/main.png?raw=true)
+16. sup
+![alt text](https://github.com/luckyabatur/labs/blob/main/sup.png?raw=true)
+17. testend0
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend0.png?raw=true)
+18. testend1
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend1.png?raw=true)
+19. testend2
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend2.png?raw=true)
+20. testend3
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend3.png?raw=true)
+21. testend4
+ ![alt text](https://github.com/luckyabatur/labs/blob/main/testend4.png?raw=true)  
+22. testend5
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend5.png?raw=true)
+23. testend6
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend6.png?raw=true)
+24. testend7
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend7.png?raw=true)
+25. testend8
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend8.png?raw=true)
+26. testend9
+![alt text](https://github.com/luckyabatur/labs/blob/main/testend9.png?raw=true)
+27. zero
+![alt text](https://github.com/luckyabatur/labs/blob/main/zero.png?raw=true)
+28. supzero
+![alt text](https://github.com/luckyabatur/labs/blob/main/supzero.png?raw=true)
 ```
 15 7
 !5 7
