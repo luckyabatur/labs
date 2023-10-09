@@ -50,11 +50,9 @@
 6. Если нужно, избавиться от ведущих нулей.
 
 ## 8. Распечатка протокола
+tenminus
+![alt text](https://github.com/luckyabatur/labs/blob/main/tenminus.png?raw=true)
 
-1. Приложите скриншоты вашей ДТ (для всех функций)
-2. Напишите здесь промежуточные результаты работы вашей программы (много не надо 5-10 результатов хватит, пишите только основные действия)
-
-![alt tenminus](https://github.com/luckyabatur/labs/blob/main/tenminus.png?raw=true)
 ```
 15 7
 !5 7
