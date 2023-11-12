@@ -16,8 +16,8 @@
 
 ## 3. Задание
 
-![alt text](https://github.com/luckyabatur/labs/blob/main/tenminus.png?raw=true)
-![alt text](https://github.com/luckyabatur/labs/blob/main/tenminus.png?raw=true)
+![alt text](https://github.com/luckyabatur/labs/blob/main/ЛР9/Снимок%20экрана%202023-11-12%20231058.png?raw=true)  
+![alt text](https://github.com/luckyabatur/labs/blob/main/ЛР9/Снимок%20экрана%202023-11-12%20231103.png?raw=true)   
 
 ## 4. Оборудование
 
