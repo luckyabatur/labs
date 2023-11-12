@@ -76,6 +76,7 @@ int main()
        if (in_square(old.dot, s) == 1)
        {
            printf("Success\n");
+           break;
        }
        if (k == 49)
        {
