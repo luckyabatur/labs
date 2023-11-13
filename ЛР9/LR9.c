@@ -66,7 +66,7 @@ int main()
     s.center.x = 10;
     s.center.y = -10;
     s.side = 10;
-    for (int k = 0; k < 50; k++)
+    for (int k = 1; k < 51; k++)
     {
        nw.dot.x = abs(k - 15) - min(old.dot.x / 3, (old.dot.y + old.l) % 10) - 20;
        nw.dot.y = -(old.dot.y + k) / 5 + abs(old.dot.x * old.l % 8);
@@ -75,10 +75,10 @@ int main()
        print_mp(old);
        if (in_square(old.dot, s) == 1)
        {
-           printf("Success\n");
+           printf("Success: k = %d\n", k);
            break;
        }
-       if (k == 49)
+       if (k == 50)
        {
            printf("Fail\n");
        }
