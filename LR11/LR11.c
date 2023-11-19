@@ -9,13 +9,13 @@ int main()
         switch (state)
         {
             case 0:
-                if (s != ' ' && s != '\n')
+                if (s != ' ' && s != '\n' && s != '\t' && s != ',')
                 {
                     state = 1;
                 }
                 break;
             case 1:
-                if (s != ' ' && s != '\n')
+                if (s != ' ' && s != '\n' && s != '\t' && s != ',')
                 {
                     state = 2;
                 }
@@ -25,7 +25,7 @@ int main()
                 }
                 break;
             case 2:
-                if (s != ' ' && s != '\n')
+                if (s != ' ' && s != '\n' && s != '\t' && s != ',')
                 {
                     count += 1;
                     state = 3;
@@ -36,7 +36,7 @@ int main()
                 }
                 break;
             case 3:
-                if (s == ' ' || s == '\n')
+                if (s == ' ' || s == '\n' || s == '\t' || s == ',')
                 {
                     state = 0;
                 }
