@@ -61,7 +61,7 @@ int main()
         switch (state)
         {
         case 0:
-            if (c != ' ' && c != '\n')
+            if (c != ' ' && c != '\n' && c != '\t' && c != ',')
                 {
                     state = 1;
                     number = num(c);
@@ -72,7 +72,7 @@ int main()
                 }
             break;
         case 1:
-            if (c != ' ' && c != '\n')
+            if (c != ' ' && c != '\n' && c != '\t' && c != ',')
                 number = num(c);
                 if (number < 27)
                 {
@@ -90,7 +90,7 @@ int main()
             }
             break;
         case 2:
-            if (c != ' ' && c != '\n')
+            if (c != ' ' && c != '\n' && c != '\t' && c != ',')
             {
                 g = 1;
                 state = 3;
@@ -103,7 +103,7 @@ int main()
             }
             break;       
         case 3:
-            if (c != ' ' && c != '\n')
+            if (c != ' ' && c != '\n' && c != '\t' && c != ',')
             {
                 number = num(c);
                 if (number < 27)
