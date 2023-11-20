@@ -23,10 +23,8 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        printf("\n");
         for (int j = 0; j < n; j++)
         {
-            printf("%d ", mas[i][j]);
             if (mas[i][j] == max)
             {
                 lwmax[i] = 1;
