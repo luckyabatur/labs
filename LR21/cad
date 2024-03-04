@@ -1,0 +1,127 @@
+#!/bin/bash 
+function fdiff
+{
+    echo
+    for file in $1*
+    do
+        if [ -d $file ]
+        then
+            if [ $recursion = "1" ]
+            then
+                fdiff "$file/"
+            else
+                continue
+            fi
+        elif [ -f $file ] && (! [[ $file = $file_path ]]) 
+        then
+            test_mainname=$(basename $file)
+            test_suffix=${test_mainname#*.}
+            if [ $test_suffix = $test_mainname ]
+            then
+                continue
+            fi 
+            if [ $test_suffix = $suffix ] 
+            then
+                answer=$(diff -q $file $file_path)
+                lengh=${#answer}
+                if [ $lengh -eq 0 ]
+                then
+                    flag=1
+                    echo "the files $file and $file_path match."
+                    echo "the file $file will be deleted."; echo
+                    rm $file
+                fi
+            fi
+
+        fi
+    done
+}
+
+diff_path=""
+file_path=""
+
+
+while [ -n "$1" ]
+do
+    case "$1" in
+    ?) cat "/home/luckyabatur/UNI/bash/instruction.txt";   exit 0;;
+    -p)
+        diff_path="$2"
+        shift
+    ;;
+    -f)
+        file_path="$2"
+        shift
+    ;;
+    -r)
+        recursion="$2"
+        shift
+    ;;
+    esac
+    shift
+done
+
+
+if [ -z $diff_path ]
+then
+    echo -n "Write path to comparision directory: " 
+    read diff_path
+fi
+
+if [ -z $file_path ]
+then
+    echo -n "Write path to file: "
+    read file_path
+fi
+
+if [ -z $recursion ]
+then
+    echo -n "Write a mode for working with directories: "
+    read recursion
+fi
+
+mainname=$(basename $file_path)
+suffix=${mainname#*.}
+
+while [ $suffix = $mainname ] || (! [[ -f $file_path ]]) 
+do
+    if [ $suffix = $mainname ]
+    then
+        echo "You wrote a path to file without a suffix"
+    else
+        
+        echo "You wrote a wrong path to file"
+    fi
+    echo -n "Write the path again: "
+    read file_path
+    mainname=$(basename $file_path)
+    suffix=${mainname#*.}
+done
+
+
+mainname=$(basename $file_path)
+suffix=${mainname#*.}
+
+
+while ! [[ -d $diff_path ]]
+do
+    echo "You wrote a wrong path to directory"
+    echo -n "Write the path again: "
+    read diff_path
+done
+
+while ! ([ $recursion = "1" ] || [ $recursion = "0" ])
+do
+    echo "You wrote a wrong value for key -r"
+    echo -n "Write value again: "
+    read recursion
+done
+
+flag=0
+
+fdiff $diff_path
+
+if [ $flag -eq 0 ]
+then
+    echo "Matching files with the file suffix were not found."; echo
+fi
