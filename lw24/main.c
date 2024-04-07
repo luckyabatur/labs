@@ -4,7 +4,6 @@
 
 #include "symbol.h"
 // #include "stack.h" //�� ����� �� �������� ������ ������ � �������� ����� header
-// #include "stack.c"
 #include "stack.c"
 #include "tree.h"
 
@@ -355,11 +354,11 @@ int main() {
         return 4;
     }
 
-    print_tree(root, 0);
+    // print_tree(root, 0);
 
     laba(root);
 
-	print_tree(root, 0);
+	// print_tree(root, 0);
 
     print_expr(root);
     printf("\n");
