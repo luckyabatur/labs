@@ -5,7 +5,7 @@
 #include "symbol.h"
 // #include "stack.h" //�� ����� �� �������� ������ ������ � �������� ����� header
 // #include "stack.c"
-#include "stack copy.c"
+#include "stack.c"
 #include "tree.h"
 
 int op_priority(char op) {
