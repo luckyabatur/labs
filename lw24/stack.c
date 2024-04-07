@@ -3,8 +3,7 @@
 #include <stdbool.h>
 
 #include "symbol.h"
-// #include "stack.h"
-#include "stack copy.h"
+#include "stack.h"
 
 STACK *stack_create() {
     STACK *stack = (STACK*)malloc(sizeof(STACK));
