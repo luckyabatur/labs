@@ -12,8 +12,8 @@ void usage()
 
 int readstudent(student *st)
 {
-	return scanf("%[^;]; %[^;]; %c; %[^;]; %d; %d; %d; %d; %d\n",
-	st->name, st->initials, &st->gender, st->group, &st->la, &st->inf, &st->py, &st->dm, &st->ma) == 9;
+	return scanf("%[^;]; %[^;]; %c; %d; %d; %d; %d; %d; %d\n",
+	st->name, st->initials, &st->gender, &st->group, &st->la, &st->inf, &st->py, &st->dm, &st->ma) == 9;
 }
 
 
@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
 		fwrite(s->name, sizeof(char), SIZE_N, out);
 		fwrite(s->initials, sizeof(char), SIZE_I, out);
 		fwrite(&s->gender, sizeof(char), 1, out);
-		fwrite(s->group, sizeof(char), SIZE_G, out);
+		fwrite(&s->group, sizeof(int), 1, out);
 		fwrite(&s->la, sizeof(int), 1, out);
 		fwrite(&s->inf, sizeof(int), 1, out);
 		fwrite(&s->py, sizeof(int), 1, out);

@@ -10,7 +10,7 @@ void usage()
 
 int main(int argc, char* argv[])
 {   
-    if (argc != 3)
+    if (argc != 3 && argc != 4)
     {
         usage();
         return 1;
@@ -41,6 +41,8 @@ int main(int argc, char* argv[])
         int answer = 0;
         while (read_file(&s, in))
         {
+            if (s.group != atoi(argv[3]))
+                continue;
             int count = 0;
             int grades[] = { s.dm, s.inf, s.la, s.ma, s.py };
             for (int i = 0; i < sizeof(grades)/sizeof(int); i++)
