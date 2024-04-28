@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 
         fclose(in);
 
-        printf("Количество студентов с одной пятёркой: %d\n", answer);
+        printf("Количество студентов с одной пятёркой в группе %d: %d\n", atoi(argv[3]), answer);
     }
 
     return 0;
