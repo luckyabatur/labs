@@ -5,7 +5,7 @@
 
 void usage()
 {
-    printf("Usage: 'program filename' -f for print -p for action\n");
+    printf("Usage: 'program filename' -f for print -p <parameter> for action\n");
 }
 
 int main(int argc, char* argv[])
