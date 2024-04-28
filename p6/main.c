@@ -29,7 +29,9 @@ int main(int argc, char* argv[])
     if (argv[2][0] == '-' && argv[2][1] == 'f')
     {
         print_table(in);
+        fclose(in);
         return 0;
+        
     }
 
     if (argv[2][0] == '-' && argv[2][1] == 'p') 
