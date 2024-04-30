@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
                     break;
             }
             if (count == 1)
-                answer++;       
+                answer++;
         }
 
         fclose(in);

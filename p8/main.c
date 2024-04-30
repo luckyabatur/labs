@@ -51,7 +51,7 @@ int main(void)
             i = Delete(l, &i);
             if (Equal(&i, &empty))
             {
-                printf("Попытка удалить элемент из пустого списка\n");
+                printf("Попытка удалить барьерный элемент\n");
                 break;
             }
             printf("Элемент удалён\n");
