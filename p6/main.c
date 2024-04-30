@@ -41,7 +41,7 @@ int main(int argc, char* argv[])
         int answer = 0;
         while (read_file(&s, in))
         {
-            if (s.group != atoi(argv[3]))
+            if (s.group != atoi(argv[3]) || s.gender == 'm')
                 continue;
             int count = 0;
             int grades[] = { s.dm, s.inf, s.la, s.ma, s.py };
@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 
         fclose(in);
 
-        printf("Количество студентов с одной пятёркой в группе %d: %d\n", atoi(argv[3]), answer);
+        printf("Количество студенток с одной пятёркой в группе %d: %d\n", atoi(argv[3]), answer);
     }
 
     return 0;

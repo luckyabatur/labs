@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define SIZE_N 10
-#define SIZE_I 2
+#define SIZE_I 3
 
 
 typedef struct student
